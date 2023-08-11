@@ -1,0 +1,9 @@
+programa que permita ingresa ususarios al sistema
+que permita eliminar usuario
+editarlos
+de cada usuario se guarda su nombre cedula telefono nombre y apellido ademas de un numero unico para identificarlo 
+ademas se tiene que poder agregar propiedades
+cada propiedad tiene datos, como cantidad de cuartos ba;os, su direccion y capacidad de personas.
+tambien se debe de poder asignarle una casa a cada persona
+puede haber personas sin cada y casas sin personas asignadas
+se puede desasignar una persona de una casa y una casa de una persona 
