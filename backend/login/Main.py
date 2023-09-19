@@ -1,5 +1,5 @@
 from Usuario import Usuario
-from Sistema import usuarios, agregar_usuario, devuelte_False_si_usuario_repetido, devuelte_False_si_contrasena_leve
+from Sistema import usuarios, agregar_usuario, devuelte_False_si_usuario_repetido, devuelte_False_si_contrasena_leve, devuelte_True_si_usuario_y_contrasena_correctos
 
 
 
@@ -27,7 +27,14 @@ def agregar_Usuario():
 
 
 def ingresar_A_Usuario():
-    print("ingresar a usuario")
+    nombre_usuario = input("Ingrese nombre del usuario")
+    contrasena = input("ingrese contraseña del usuario")
+
+    if devuelte_True_si_usuario_y_contrasena_correctos(nombre_usuario, contrasena):
+        print(f"Se ingreso correctamente con el usuario {nombre_usuario}")
+    else:
+        print("no hay usuarios ingresados con los datos dados")
+
 
 
 def imprimir_usuarios():

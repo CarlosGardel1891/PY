@@ -25,3 +25,12 @@ def devuelte_False_si_contrasena_leve(contrasena):
         return True
     else:
         return False
+
+
+def devuelte_True_si_usuario_y_contrasena_correctos(nombre, contrasena):
+    for usuario in usuarios:
+        if nombre == usuario.nombre_usuario and contrasena == usuario.contrasena:
+            return True
+    
+    return False
+    
