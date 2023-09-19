@@ -41,7 +41,6 @@ def imprimir_usuarios():
     print("Usuarios registrados:")
     for usuario in usuarios:
         print("Nombre de usuario:", usuario.nombre_usuario)
-        print("Contraseña:", usuario.contrasena)
         print()  # Separador entre usuarios
 
 
